@@ -37,6 +37,8 @@ class TodoItem extends Component {
 //  PropTypes;
 TodoItem.propTypes = {
 	todo: PropTypes.object.isRequired,
+	markComplete: PropTypes.func.isRequired,
+	deleteTodo: PropTypes.func.isRequired,
 };
 
 const inputStyle = {
